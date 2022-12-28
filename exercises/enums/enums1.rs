@@ -1,10 +1,13 @@
 // enums1.rs
 // No hints this time! ;)
 
-// I AM NOT DONE
 
 #[derive(Debug)]
 enum Message {
+    Quit,
+    Move, 
+    Echo,
+    ChangeColor,
     // TODO: define a few types of messages as used below
 }
 
